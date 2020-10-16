@@ -1,9 +1,10 @@
 {
-  "name": "vue-chartkick",
-  "version": "0.6.1",
+  "name": "@oliv4/vue-chartkick",
+  "version": "0.6.2",
   "description": "Create beautiful JavaScript charts with one line of Vue",
   "main": "dist/vue-chartkick.js",
   "module": "dist/vue-chartkick.esm.js",
+  "homepage": "https://github.com/oliv4/vue-chartkick",
   "scripts": {
     "build": "rollup -c",
     "lint": "eslint src"
@@ -17,7 +18,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/oliv4/vue-chartkick"
+    "url": "git://github.com/oliv4/vue-chartkick.git"
   },
   "files": [
     "dist"
@@ -31,7 +32,7 @@
     "rollup-plugin-uglify": "^6.0.2"
   },
   "dependencies": {
-    "chartkick": "git+https://github.com/oliv4/chartkick.js.git",
+    "@oliv4/chartkick.js": "^3.2.3",
     "deep-equal": "^1.0.1",
     "deepmerge": "^4.2.0"
   }
